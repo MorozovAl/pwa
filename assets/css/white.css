@@ -1,0 +1,2055 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+/* float clearing for IE6 */
+
+* html .clearfix {
+    height: 1%;
+    overflow: visible;
+}
+
+/* float clearing for IE7 */
+
+*+html .clearfix {
+    min-height: 1%;
+}
+
+/* float clearing for everyone else */
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+
+.clearleft {
+    clear: left;
+}
+
+body {
+    background: #c7ebfb;
+    font-family: arial, sans-serif;
+}
+
+.shadow {
+    -moz-box-shadow: 0px 0px 14px #898989;
+    -webkit-box-shadow: 0px 0px 14px #898989;
+    box-shadow: 0px 0px 14px #898989;
+}
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}
+
+.ma {
+    margin: 0 auto;
+    display: block;
+}
+
+.tac {
+    text-align: center
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mb15 {
+    margin-bottom: 15px !important;
+}
+
+.mb7 {
+    margin-bottom: 7px !important;
+}
+
+.mr6 {
+    margin-right: 6px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt7 {
+    margin-top: 7px !important;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}
+
+.mr28 {
+    margin-right: 28px !important;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
+
+.pt20 {
+    padding-top: 20px !important;
+}
+
+.pt10 {
+    padding-top: 10px !important;
+}
+
+.mtlr10 {
+    margin: 10px 10px 0 10px !important;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 30px;
+    color: #525151;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 26px;
+    color: #525151;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #525151;
+}
+
+h5 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #525151;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1em;
+}
+
+a {
+    color: #525151;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: #177992;
+    text-decoration: none;
+}
+
+p {
+    font-size: 12px;
+    color: #525151;
+}
+
+.bb-dashed {
+    border-bottom: 1px dashed #cac7c0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.bb-line {
+    border-bottom: 1px solid #cac7c0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Header */
+
+.header {
+    width: 1215px;
+    height: 72px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.w1000 .header {
+    width: 1012px !important;
+}
+
+.header .top {
+    width: 100%;
+    height: 72px;
+    background: #02adf6 url('../img/sveikata/ornaments.png') no-repeat center right;
+}
+
+.header .top .logo {
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.header-b {
+    width: 1012px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Container */
+
+.container {
+    width: 1215px;
+    margin: 0 auto;
+}
+
+.w1000 .container {
+    width: 1012px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+.menu-main {
+    background-color: #02adf6;
+    height: 46px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.menu-main img {
+    float: left;
+    height: 31px;
+    width: 134px;
+    margin: 8px 48px 7px 20px;
+}
+
+.menu-main .moreSpaces {
+    float: right;
+    padding-right: 10px;
+}
+
+.menu-main ul li {
+    display: inline;
+    height: 46px;
+    float: left;
+}
+
+.menu-main ul li.hiddenElements li {
+    float: none;
+}
+
+.menu-main ul li a {
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 46px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-main ul li a:hover {
+    color: #02adf6;
+    background-color: #ffffff;
+}
+
+.menu-main ul li a.active {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.menu-main ul li.hiddenElements a:hover>span {
+    color: #02adf6;
+}
+
+.menu-main ul li.hiddenElements.active a span,
+.menu-main ul li.hiddenElements a.active span {
+    color: #000000;
+}
+
+.hiddenLink span {
+    display: none !important;
+}
+
+.hiddenElements {
+    position: absolute;
+}
+
+.hiddenElements .hiddenLinks {
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    top: 46px;
+    right: 0px;
+    z-index: 100000;
+}
+
+.hiddenElements.active .hiddenLinks {
+    display: block;
+    padding: 10px;
+    position: absolute;
+    box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.44);
+}
+
+.hiddenElements.active .hiddenLinkMain {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.hiddenLink a {
+    color: #333333 !important;
+}
+
+.hiddenLink a:hover {
+    color: #02adf6 !important;
+}
+
+.hiddenLinks {
+    border-left: 1px solid #f2f1f1;
+    border-right: 1px solid #f2f1f1;
+    border-bottom: 1px solid #f2f1f1;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    min-width: 220px;
+}
+
+.hiddenLinks li {
+    display: block !important;
+    border-bottom: 1px solid #daebef;
+}
+
+/* Menu sub */
+
+.menu-sub {
+    background-color: #ffffff;
+    height: 34px;
+    width: 100%;
+}
+
+.menu-sub ul {
+    margin-left: 10px;
+}
+
+.menu-sub ul li {
+    display: inline;
+    line-height: 32px;
+}
+
+.menu-sub ul li span {
+    font-size: 12px;
+    color: #525151;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu-sub ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #525151;
+}
+
+/* Content */
+
+.content {
+    padding: 0px 10px 10px 10px;
+    background: #ffffff;
+}
+
+.content .left {
+    width: 600px;
+    float: left;
+}
+
+.content .left .block {
+    width: 600px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.content .left .block .inner {
+    margin: 0 auto;
+    width: 580px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.category {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.category-title {
+    position: absolute;
+    background-color: #ffffff;
+    bottom: -1px;
+    padding-right: 8px;
+}
+
+.category-stripe {
+    height: 9px;
+    width: 100%;
+    display: block;
+}
+
+.content img {}
+
+.content .right {
+    width: 380px;
+    float: right;
+}
+
+.content .right .block {
+    width: 380px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #daebef;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    border-top-left-radius: 6px;
+    overflow: hidden;
+}
+
+.content .right .block.advert .b-box {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content .right .block.advert .right-header {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content .right .block .inner {
+    margin: 0 auto;
+    width: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content .right .block .inner7 {
+    margin: 0 auto;
+    width: 366px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content .right .block .inner-popular {
+    margin: 0 auto;
+    width: 380px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content .right .block .inner-popular h3 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.content .right .block .inner-answer .holder215 {
+    margin-bottom: 0;
+}
+
+.content .right .block .inner-answer h5 {
+    height: 55px;
+    overflow: hidden;
+    padding: 0;
+    line-height: 18px;
+    margin-bottom: 23px;
+}
+
+.content .right .block .inner-answer p a span {
+    color: #177992;
+}
+
+.right .block.advert.clearfix .right-header {
+    padding-bottom: 0px;
+}
+
+.holder580 .image-link,
+.holder600 .image-link {
+    position: relative;
+}
+
+.holder600 .image-link.float-left {
+    float: left;
+    display: block;
+}
+
+/* elements */
+
+.holder275 {
+    width: 275px;
+}
+
+.holder295 {
+    width: 295px;
+    float: right;
+}
+
+.holder600 {
+    width: 600px;
+}
+
+.holder580 {
+    width: 580px;
+}
+
+.holder180 {
+    margin-right: 20px;
+    float: left;
+    width: 180px;
+}
+
+.right .holder180 {
+    margin-right: 0;
+}
+
+.holder215 {
+    float: right;
+    width: 215px;
+    margin-bottom: 25px;
+}
+
+.holder215 h5 {
+    padding-bottom: 17px;
+    margin: 0;
+    vertical-align: baseline;
+    border: 0;
+    line-height: 16px;
+}
+
+.holder360 {
+    width: 360px;
+}
+
+.holder366 {
+    width: 366px;
+}
+
+.holder-buttons {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-bottom: 7px;
+}
+
+.holder-buttons a {
+    margin-right: 5px;
+}
+
+a.link-more {
+    color: #177992;
+    font-size: 11px;
+    background: url('../img/sveikata/arrow_next.png') no-repeat center right;
+    padding-right: 10px;
+}
+
+/* comments */
+
+.comments {
+    margin-left: 1px;
+    font-size: 11px;
+    color: #dfe0e3;
+}
+
+.comments a {
+    padding-bottom: 2px;
+    color: #177992;
+    background: url('../img/sveikata/comment.png') no-repeat top left;
+    padding-left: 22px;
+}
+
+/* buttons */
+
+.button {
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+    background: url('../img/sveikata/buttons.png') repeat-x top left;
+    -moz-box-shadow: 1px 1px 1px #d9d9d9;
+    -webkit-box-shadow: 1px 1px 1px #d9d9d9;
+    box-shadow: 1px 1px 1px #d9d9d9;
+    border: none;
+}
+
+.button.blue {
+    background-position: 0 0px;
+    color: #ffffff;
+}
+
+.button.blue.big {
+    height: 28px;
+    line-height: 28px;
+    background: url('../img/sveikata/buttons-big.png') repeat-x top left;
+    font-size: 13px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.button.gray {
+    background-position: 0 -19px;
+    color: #525151;
+}
+
+/* list */
+
+.list {}
+
+.list li {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #525151;
+    padding: 7px 5px 7px 47px;
+    position: relative;
+}
+
+.list li span {
+    position: absolute;
+    left: 10px;
+    background: url('../img/sveikata/bullet.png') no-repeat top left;
+    display: block;
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 18px;
+}
+
+.white {
+    background: #f2f2f2;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    font-size: 11px;
+    color: #177992;
+}
+
+.breadcrumbs span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.breadcrumbs a {
+    color: #177992;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs a:hover {
+    color: #525151;
+    text-decoration: none;
+}
+
+/* navigation */
+
+.navigation {
+    float: right;
+}
+
+.navigation a {
+    width: 42px;
+    height: 42px;
+    float: left;
+}
+
+a.next {
+    background: transparent url('../img/sveikata/next.png');
+}
+
+a.prev {
+    background: transparent url('../img/sveikata/prev.png');
+}
+
+.heading {
+    margin-top: 10px;
+}
+
+.heading h2 {
+    width: 460px;
+    float: left;
+    font-size: 32px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.article a {
+    color: #177992;
+}
+
+.article {
+    font-size: 14px !important;
+    color: #525151;
+    margin-top: 10px;
+    line-height: 21px !important;
+}
+
+.article p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+}
+
+.article ol {
+    list-style-type: decimal;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.article ul {
+    list-style-type: disc;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.article img {
+    margin: 20px 10px 0px 10px;
+}
+
+.article-pages {
+    background: #ECF7FB;
+    padding: 7px;
+    height: 22px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.article-pages ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.article-pages ul li.label {
+    margin-right: 10px;
+    color: #525151;
+    line-height: 22px;
+}
+
+.article-pages ul li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 4px;
+}
+
+.article-pages ul li a {
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 6px;
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #666;
+}
+
+.article-pages ul li a:hover {
+    background: #ECF7FB;
+}
+
+.article-pages ul li a.current {
+    background: #ECF7FB;
+}
+
+.article-pages ul li a.prev,
+.article-pages ul li a.next {
+    background: #fff url(../img/sveikata/article-pages-bg.gif) repeat-x;
+    color: #fff;
+    border: 0;
+    line-height: 22px;
+    height: 22px;
+    padding: 0 8px;
+}
+
+.article-pages ul li a.prev:hover,
+.article-pages ul li a.next:hover {
+    background: #187D96;
+}
+
+.article-pages ul li a.prev {
+    margin-right: 4px;
+}
+
+.article-pages ul li a.next {
+    margin-left: 4px;
+}
+
+.next-page {
+    padding: 1px 3px 2px 5px;
+    background: fff;
+    float: left;
+    margin-top: 3px;
+    border: 1px solid #b5b5b5;
+    color: #177992;
+    font-size: 14px;
+}
+
+.next-page:hover {
+    background: #ECF7FB;
+}
+
+.article .page-break-html {
+    display: none
+}
+
+.photo {
+    margin: 20px 20px 10px 0px;
+    float: left;
+}
+
+.photoInfo {
+    font-size: 11px;
+    color: #525151
+}
+
+/* tags */
+
+.tags {
+    font-size: 12px;
+    color: #525151;
+    margin-top: 5px;
+}
+
+.tags a {
+    color: #177992;
+    text-decoration: underline;
+}
+
+
+/* comments block */
+
+.comments-form-block {
+    background: #ecf7fb;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.comments-form-block label {
+    color: #525151;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px
+}
+
+.article-comments .comments-form-block .author-image {
+    width: 50px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+.article-comments .comments-form-block .form-row {
+    margin: 5px 0px 0px 65px;
+    position: relative;
+}
+
+.comment_input {
+    width: 260px;
+    background: #ffffff;
+    border: 1px solid #666666
+}
+
+.comments-form-block textarea {
+    background: #ffffff;
+    border: 1px solid #666666;
+    width: 491px;
+    height: 70px;
+}
+
+.chars-counter {
+    font-size: 10px;
+    color: #525151;
+    float: right;
+}
+
+.comment-item {
+    border-bottom: 1px solid #cac7c0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.article-comments .comment-item.last {
+    border-bottom: none;
+}
+
+.article-comments .comment-item .comment-header {
+    float: left;
+    padding-left: 10px;
+    width: 510px;
+}
+
+.article-comments .comment-item .comment-author {
+    text-decoration: none;
+    color: #525151;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 5px;
+
+}
+
+.article-comments .comment-item .comment-date {
+    float: right;
+    color: #525151;
+    font-size: 11px;
+}
+
+.article-comments .comment-item .comment-comment {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #525151;
+    overflow: hidden;
+    width: 450px;
+    float: left;
+}
+
+.article-comments .comment-item .comment-author-image {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.more-comments {
+    border-top: 1px solid #cac7c0;
+}
+
+.more-comments a {
+    font-size: 11px;
+    color: #177992;
+}
+
+/* search */
+
+.search {
+    position: relative;
+    width: 380px;
+    height: 34px;
+    background: #c2c4c3;
+    margin-top: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.search input {
+    width: 334px;
+    height: 28px;
+    margin: 0;
+    border: none;
+    padding-right: 40px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 26px;
+    height: 23px;
+    margin: 0;
+    border: 0;
+    background: transparent url('../img/sveikata/search.png') no-repeat center top;
+    overflow: hidden;
+    cursor: pointer;
+    /* hand-shaped cursor */
+    cursor: hand;
+    /* for IE 5.x */
+}
+
+/* paging */
+
+.paging {
+    text-align: right;
+    font-size: 11px;
+}
+
+.paging .button {
+    color: #ffffff;
+}
+
+.paging .page {
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    display: inline-block;
+    border: 1px solid #666666;
+    color: #666666;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.paging .current.page {
+    background: #ecf7fb;
+}
+
+/* footer */
+
+.footer {
+    background: #0093d8;
+    margin-top: 10px;
+    padding: 7px 0px 4px 10px;
+    width: 1000px;
+    float: left;
+    font-size: 12px;
+    color: #ffffff;
+    -webkit-border-top-left-radius: 9px;
+    -webkit-border-top-right-radius: 9px;
+    -moz-border-radius-topleft: 9px;
+    -moz-border-radius-topright: 9px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.footer input {
+    width: 170px;
+    height: 20px;
+    border: 1px solid #0171a5;
+}
+
+.footer .btn {
+    display: inline-block;
+    height: 22px;
+    width: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 11px;
+    background: url('../img/sveikata/footer-button.png') repeat-x top left;
+    border: 1px solid #72b4d3;
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+.footer .col {
+    height: 45px;
+    padding: 0px 10px 0px 5px;
+    border-right: 1px solid #72b4d3;
+    float: left;
+}
+
+.footer .border {
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid #72b4d3;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    padding-top: 10px;
+    font-size: 11px;
+    color: #d1eefc;
+}
+
+/* poll */
+
+.strongText {
+    color: #525151;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.poll {
+    font-size: 12px;
+    color: #525151;
+}
+
+.poll ul {
+    margin-left: 60px;
+}
+
+.poll .bottom {
+    margin-left: 80px;
+}
+
+.poll ul li label {
+    vertical-align: middle;
+}
+
+.poll .radio {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.poll .button {
+    margin-top: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.poll .graph {
+    height: 12px;
+    background: transparent url('../img/sveikata/graph.png') repeat-x;
+    margin-bottom: 10px;
+    -moz-box-shadow: 1px 1px 1px #d9d9d9;
+    -webkit-box-shadow: 1px 1px 1px #d9d9d9;
+    box-shadow: 1px 1px 1px #d9d9d9;
+}
+
+/** facebook**/
+
+.absolute-fb-message {
+    -moz-border-radius: 10px 10px 10px 10px;
+    background-color: #ecf7fa;
+}
+
+.absolute-fb-message .message-head {
+    color: #525151;
+    margin: 20px 20px 25px 20px;
+}
+
+.absolute-fb-message .message-head h2 {
+    font-size: 16px;
+}
+
+.absolute-fb-message .message-head a {
+    background-color: #8799B0;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.absolute-fb-message .message-body {
+    margin: 0 19px 20px;
+}
+
+
+.recipes-tipes .list {
+    width: 175px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.recipes-tipes .list li {
+    height: 22px;
+    background: transparent url('../img/sveikata/marker.png') no-repeat left center;
+    padding: 0;
+    padding-left: 14px;
+    font-size: 13px;
+}
+
+.recipes-tipes .list li.last {
+    border: none;
+}
+
+.recipes-tipes .list li.first {
+    margin: none;
+}
+
+.recipes-tipes .list li a {
+    line-height: 22px;
+}
+
+.recipes-tipes .list li span {
+    margin-top: 2px;
+}
+
+.recipes-tipes .list.even {
+    margin: 0 0 0 10px;
+}
+
+.recipes-tipes .list li a {
+    display: block;
+}
+
+.recipes-tipes .list li.active {
+    border: none;
+    background: transparent url('../img/sveikata/marker-down.png') no-repeat left center;
+}
+
+.recipes-tipes .list li.active a {
+    color: #177992;
+}
+
+.recipes-tipes .list ul {
+    padding: 0 0 10px 0;
+}
+
+.recipes-tipes .list ul li {
+    background: none;
+    border: none;
+}
+
+.recipes-tipes .list ul li a {
+    font-weight: normal;
+}
+
+.recipe .rate {
+    dispaly: block;
+    float: left;
+}
+
+.recipe .rate li {
+    width: 20px;
+    height: 19px;
+    display: inline-block;
+}
+
+.recipe .rate li a {
+    width: 20px;
+    height: 19px;
+    display: block;
+}
+
+.recipe .rate .rated {
+    background: url('/app/assets/img/sveikata/rate-icons.png') no-repeat;
+}
+
+.recipe .rate .no-rated {
+    background: url('/app/assets/img/sveikata/rate-icons.png') no-repeat -24px 0px;
+}
+
+.recipe .rate .no-rated.hover {
+    background: url('/app/assets/img/sveikata/rate-icons.png') no-repeat;
+}
+
+.recipe .rate .rated.activeHover {
+    background: url('/app/assets/img/sveikata/rate-icons.png') no-repeat -24px 0px;
+}
+
+.rate-label {
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0 10px 0 0;
+}
+
+.recipe .images {
+    width: 382px;
+    vertical-align: top;
+}
+
+.recipe .images img {}
+
+.recipe .info-block {
+    width: 165px;
+    float: right;
+    margin: 0 0 0 5px;
+    background: #f2f2f2;
+}
+
+.recipe .info-block .title {
+    font-weight: bold;
+    color: #177991;
+}
+
+.recipe .info-block .title,
+.recipe .info-block .value {
+    float: left;
+    padding-bottom: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.recipe .info-block .info,
+.recipe .info-block .ingredients {
+    padding: 10px;
+}
+
+.recipe .info-block .ingredients {
+    border-top: 1px solid #e6e5d7;
+}
+
+.recipe .info-block .title.black {
+    font-weight: bold;
+    color: #666666;
+    float: none;
+}
+
+.recipe ol {
+    padding: 0 0 0 20px;
+    margin: 5px 0;
+}
+
+/* Upload form */
+
+.upload-form .inner {
+    display: block;
+    float: none;
+}
+
+.upload-form {
+    /*    font-size: 15px;*/
+    color: #666666;
+}
+
+.upload-form .label1 {
+    width: 170px;
+}
+
+.upload-form.article h1 {
+    width: 440px;
+}
+
+.upload-form input[type="text"] {
+    border: 1px solid #959595;
+    background: #ffffff;
+    height: 20px;
+}
+
+.upload-form textarea {
+    border: 1px solid #959595;
+    background: #ffffff;
+}
+
+.upload-form .instruction-table textarea {
+    width: 500px;
+    height: 80px;
+    margin: 0 0 0 5px;
+}
+
+.upload-form .instruction-table td {
+    vertical-align: top;
+    padding: 0 0 5px 0;
+}
+
+.upload-form .instruction-table .del-row {
+    padding: 0 10px;
+}
+
+.upload-form .recipe-title {
+    width: 350px;
+}
+
+.upload-form select {
+    width: 150px;
+}
+
+.upload-form .rounded .label1 {
+    padding: 0 0 10px 0;
+}
+
+.upload-form .ingredient-value {
+    width: 55px;
+}
+
+.upload-form .ingredients-table .ingredient-col .r-input {
+    width: 280px;
+}
+
+.upload-form .ingredients-table td {
+    padding: 0 0 5px 0;
+}
+
+.upload-form .ingredients-table .head td {
+    padding: 0 0 10px 0;
+}
+
+.upload-form .ingredients-table .ingredient-col {
+    padding: 0 5px 5px 0;
+}
+
+.upload-form .ingredients-table .del-row {
+    padding: 6px 0px 0px 10px;
+}
+
+.upload-form .ingredient-value {
+    margin: 0 5px 0 0;
+}
+
+.upload-form .del-row {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.upload-form .delete-row {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: url('/app/assets/img/sveikata/recipes/recipe-remove-button.png') no-repeat;
+}
+
+.upload-form .delete-row:hover {
+    background: url('/app/assets/img/sveikata/recipes/recipe-remove-hover.png') no-repeat;
+}
+
+.add-new {
+    background: url('/app/assets/img/sveikata/recipes/recipes-add-button.png') no-repeat;
+    height: 30px;
+    padding: 0 0 0 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.add-new:hover {
+    background: url('/app/assets/img/sveikata/recipes/recipes-add-hover.png') no-repeat;
+}
+
+.upload-form .add-ingredient-line {
+    padding: 0 20px;
+    margin: 10px 0 0 0;
+}
+
+.upload-form .add-ingredient-line .add-new {
+    margin: 0px;
+}
+
+.upload-form .photo-upload .photo-side .add-new {
+    display: block;
+    height: 30px;
+    margin: 5px 0 0 30px;
+    position: relative;
+}
+
+.upload-form .photo-upload td {
+    vertical-align: top;
+}
+
+.upload-form .photo-upload .photo-side {
+    width: 200px;
+    padding: 0 10px 0 0;
+}
+
+.upload-form .photo-upload .photo-side .add-new span {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 13px;
+}
+
+.qq-upload-button {
+    padding-left: 37px;
+}
+
+.upload-form .photo-upload .photo-field img {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.upload-form .photo-upload {
+    width: 100%;
+}
+
+.upload-form .photo-upload td {
+    width: 50%;
+}
+
+.upload-form .photo-upload textarea[name="videoEmbed"] {
+    width: 230px;
+}
+
+.upload-form .photo-upload .photo-field textarea {
+    width: 180px;
+    height: 90px;
+}
+
+.upload-form .title {
+    font-weight: bold;
+    color: #525766;
+}
+
+.upload-form .hr {
+    float: none;
+    margin: 15px 0;
+}
+
+.upload-form .button {
+    float: left;
+    margin: 25px 0 0 0;
+}
+
+.upload-form .heading .hr {
+    float: left;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.go-back {
+    color: #177992;
+    font-size: 12px;
+}
+
+.recipes-grid h4 {
+    width: 230px;
+    float: left;
+}
+
+.recipes-grid .comments {
+    float: right;
+    margin-top: 5px;
+}
+
+.error-page {
+    background: transparent url('../img/sveikata/notfound.png') no-repeat left top;
+    height: 280px;
+}
+
+.error-page .error-desc {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 16px;
+    width: 350px;
+    padding: 20px 0 30px 0;
+    color: #525151;
+}
+
+.error-page .error-help {
+    background: transparent url('../img/sveikata/point.png') no-repeat left center;
+    margin-left: 20px;
+    padding: 10px 10px 10px 20px;
+    font-size: 18px;
+    color: #2b2b2b;
+}
+
+/* right sidebar comments block */
+
+.back-small {
+    padding: 10px 8px;
+    border-bottom: 1px dashed #cac7c0;
+}
+
+.back-small.last {
+    border: none;
+}
+
+.back-small.grey {
+    background: #f2f2f2;
+}
+
+.back-small .author {
+    font-weight: bold;
+    color: #525151;
+    font-size: 12px;
+}
+
+.back-small .comment {
+    color: #525151;
+    font-size: 12px;
+}
+
+.back-small a.comment:hover {
+    text-decoration: underline;
+}
+
+.back-small a.article {
+    color: #177992;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-small a.article:hover {}
+
+.back-small .date {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #848383;
+    font-size: 10px;
+}
+
+.back-small .article-holder {
+    padding-top: 8px;
+}
+
+.sticky-wrapper {
+    float: left;
+    width: 204px !important;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.w1000 .sticky-wrapper {
+    display: none;
+}
+
+#middle_block {
+    width: 200px !important;
+    float: left;
+}
+
+#middle_block .block {
+    padding: 2px;
+    padding-top: 10px;
+    width: 200px;
+    color: #555;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #daebef;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    border-top-left-radius: 6px;
+    overflow: hidden;
+}
+
+#middle_block .block span {
+    padding-left: 12px;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+#middle_block .holder180 {
+    margin-left: 10px !important;
+    color: #555;
+    margin-right: 10px !important;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    margin-bottom: 6px !important;
+}
+
+#middle_block .holder180 h5 a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#middle_block .articleLink {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.absolute-bottom {
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
+#contest .inner .heading,
+#contest .inner .heading h2 {
+    width: 100%;
+    display: inline-block;
+    line-height: 30px;
+}
+
+#contest .inner #tabs {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contest .inner #tabs ul {
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#contest .inner #tabs ul li {
+    display: inline;
+    padding: 0 5px 1px 5px;
+    border-left: 1px solid #863700;
+}
+
+#contest .inner #tabs ul li:first-of-type {
+    display: inline;
+    padding-left: 0px;
+    border-left: none;
+}
+
+#contest .inner #tabs ul li a {
+    text-decoration: underline;
+}
+
+#contest .inner #tabs ul li a.active {
+    text-decoration: none;
+}
+
+#contest .contest-content ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#contest .contest-content #prizes,
+#contest .contest-content #winners,
+#contest .contest-content #rules {
+    display: none;
+}
+
+#contest .contest-content ul li.active {
+    display: inline;
+}
+
+#contest .contest-content #about .image {
+    margin: 0px;
+}
+
+#contest .contest-content .description {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+#contest .contest-content .description .block275 {
+    float: right;
+    margin-left: 10px;
+}
+
+.block350 {
+    width: 350px;
+}
+
+.block200 {
+    width: 200px;
+}
+
+.block275 {
+    width: 275px;
+}
+
+#contest .inner .info {
+    margin-bottom: 20px;
+    background-color: #cddee2;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#contest .inner .info a {
+    color: #177992;
+}
+
+.blueLink,
+#tabs a {
+    color: #177992;
+}
+
+#contestList p {
+    line-height: 20px;
+}
+
+.recipe .author .recipe-author-image {
+    width: 200px;
+    padding-top: 10px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+
+img.smile {
+    float: none !important;
+    border: none !important;
+}
+
+.holder275pr15 {
+    width: 288px;
+    padding-right: 15px;
+}
+
+.holder360mb15 {
+    width: 360px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.holder120 {
+    width: 120px;
+}
+
+
+.holder360.clearfix input#searchField {
+    border: 1px solid #525151;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px #888888;
+    height: 21px;
+    text-indent: 7px;
+    width: 353px;
+}
+
+.button.fl {
+    background: url("../img/sveikata/buttons-big.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 14px;
+    height: 22px;
+    left: 269px;
+    position: relative;
+    top: -23px;
+    width: 86px;
+}
+
+.right-header-pb7 {
+    padding-bottom: 7px;
+}
+
+.holder360.clearfix.de {
+    height: 10px;
+}
+
+img.nobrd {
+    border: none;
+}
+
+.holder180wd178 {
+    float: left;
+    margin-right: 20px;
+    width: 178px;
+}
+
+.comments h4 .title {
+    left: -12px;
+    position: relative;
+}
+
+.mr-19 {
+    margin-right: 19px;
+}
+
+.comments h4.fln {
+    float: none;
+}
+
+.dsi {
+    display: inline;
+}
+
+.pdb0 {
+    padding-bottom: 0px
+}
+
+.recipe.search input {
+    border: medium none;
+    border-radius: 3px;
+    height: 28px;
+    margin: 3px 0 0;
+    padding-right: 40px;
+    width: 310px;
+}
+
+.recipe.search {
+    background: none repeat scroll 0 0 #c2c4c3;
+    border-radius: 6px;
+    height: 34px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 358px;
+}
+
+.block.rb9.rezults .holder580 {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.block.rb9.rezults .paging {
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.ml8 {
+    margin-left: 8px;
+    margin-bottom: 10px
+}
+
+.holder113 {
+    margin-left: 7px;
+    width: 113px;
+}
+
+.tp6 {
+    position: relative;
+    top: 6px;
+}
+
+.holder615 {
+    width: 615px;
+}
+
+p.additional-text-html {
+    font-size: 13px;
+}
+
+.holder580 .author {
+    width: 580px;
+    margin-bottom: 10px;
+}
+
+.holder580 .author .recipe-author-image {
+    width: 200px;
+    padding-top: 10px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div.photoDescription-block {
+    text-align: right;
+    font-size: 11px;
+    color: #9b8e8e;
+}
+
+.recipe ol a:hover,
+.recipe ol a {
+    color: #525766 !important;
+    text-decoration: underline !important;
+}
+
+.partner-ico-segment {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 10px;
+    bottom: 10px;
+    background-color: rgba(82, 69, 69, 0.5);
+    text-align: center;
+    border-radius: 17px;
+}
+
+.partner-ico-segment.a-type {
+    left: -265px;
+    bottom: -135px;
+}
+
+.partner-ico-segment.b-type {
+    left: 41px;
+    bottom: -135px;
+}
+
+.partner-ico-segment img.partner-ico {
+    width: 15px !important;
+    display: inline-block !important;
+    margin-top: 9px;
+}
+
+.partner-text-segment {
+    font-size: 12px;
+    color: #525151;
+    position: relative;
+}
+
+.partner-text-segment .this-frame {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.partner-text-segment .this-frame .text {
+    vertical-align: middle;
+}
+
+.partner-text-segment .image img {
+    vertical-align: top;
+    margin-left: 3px;
+}
+
+.partner-text-segment .image .dialog {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: -35px;
+    padding: 8px;
+    background-color: #02adf6;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.partner-text-segment .this-frame:hover .dialog {
+    display: block;
+}
+
+.abbrContainer img {
+    margin: 0px 10px 0px 10px;
+}
